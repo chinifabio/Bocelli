@@ -63,7 +63,7 @@ public class App {
             try {
                 HttpResponse<String> res = client.send(request, HttpResponse.BodyHandlers.ofString());
                 System.out.println("response size from guess " + guess  + " is " + res.body().length());
-                Thread.sleep(100);
+                Thread.sleep(1000);
             } catch (IOException e) {
                 System.out.println("match!");
                 pwd = pwd.concat(String.valueOf(guess));
