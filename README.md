@@ -1,4 +1,3 @@
-# MissionImpossible
-Bruteforce code for Polimi web challenge
+implementation of a blind sql injection
 
-it implements a blind sql injection
+polimi Cyber Security web challenges
